@@ -1,0 +1,61 @@
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 21px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1200px;
+
+}
+
+.logo {
+  background-image: url("./logo.svg");
+  width: 140px;
+  height: 42px;
+  margin-bottom: 21px;
+}
+
+.headerNav {
+  width: 30%;
+  min-width: 389px;
+}
+
+.headerNavSwitcher {
+  width: 37%;
+  min-width: 520px;
+}
+
+.headerNavList {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: #181c27;
+  height: 100%;
+}
+
+.link {
+  height: 100%;
+  padding-top: 12px;
+  font: 600 14px/17px "Montserrat";
+  letter-spacing: 0.04em;
+  color: #181c27;
+  text-decoration: none;
+  display: block;
+}
+
+.activeLink {
+  border-bottom: 4px solid #ff6b08;
+}
+
+.headerLogOut {
+  composes: link;
+  width: 42%;
+  text-align: center;
+  color: rgba(24, 28, 39, 0.6);
+  cursor: pointer;
+}
+
+.headerLogOutSwitch {
+  width: 25%;
+}

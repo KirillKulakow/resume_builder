@@ -1,0 +1,195 @@
+.container {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  max-width: 470px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 13px 13px 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #181c27;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08),
+    0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.wrapper_dark {
+  composes: wrapper;
+  background: #181c27;
+}
+.control {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #181c27;
+}
+.header_dark {
+  composes: header;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.buttonSpace {
+  display: flex;
+}
+
+.editBtn,
+.deleteBtn,
+.arrowBtn,
+.arrowBtnDown {
+  width: 62px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: rgba(24, 28, 39, 0.4);
+  border: none;
+  background-color: transparent;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  outline: none;
+}
+
+.editBtn {
+  margin-right: 24px;
+  background-image: url("/icons/edit_icon.svg");
+  background-size: contain;
+}
+.editBtn_dark {
+  composes: editBtn;
+  background-image: url("/icons/edit-dark.svg");
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.deleteBtn {
+  margin-right: 24px;
+  background-image: url("/icons/delete_icon.svg");
+  background-size: contain;
+}
+.deleteBtn_dark {
+  composes: deleteBtn;
+  background-image: url("/icons/delete_dark.svg");
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.arrowBtn {
+  width: 0;
+  background-image: url("/icons/toggle_icon.svg");
+  background-size: 60%;
+  background-position: 95%;
+}
+.arrowBtn_dark {
+  composes: arrowBtn;
+  background-image: url("/icons/toggle_dark.svg");
+}
+
+.arrowBtnDown {
+  width: 0;
+  background-image: url("/icons/toggle_icon.svg");
+  background-size: 60%;
+  transform: rotate(180deg);
+}
+.arrowBtnDown_dark {
+  composes: arrowBtnDown;
+  background-image: url("/icons/toggle_dark.svg");
+}
+
+.form {
+  margin: 0 auto;
+  background: rgba(24, 28, 39, 0.1);
+  width: 470px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08),
+    0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.form_dark {
+  composes: form;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.select,
+.input {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: rgba(24, 28, 39, 0.6);
+
+  border: none;
+  width: 211px;
+  padding-left: 10px;
+}
+
+.select div {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-color: red;
+}
+
+.select:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+
+  color: rgba(24, 28, 39, 0.6);
+}
+
+.languageName {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.languageName_dark {
+  composes: languageName;
+  color: #ffffff;
+}
+
+.languageLevel {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgba(24, 28, 39, 0.6);
+}
+.languageLevel_dark {
+  composes: languageLevel;
+  color: rgba(255, 255, 255, 0.6);
+}

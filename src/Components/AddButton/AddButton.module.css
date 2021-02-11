@@ -1,0 +1,20 @@
+.Add_Btn {
+  padding: 8px 16px 8px 38px;
+  background-color: rgba(24, 28, 39, 0.1);
+  border-radius: 25px;
+  border: none;
+  background-image: url("/icons/employment_add_position_btn_icon.svg");
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 12px;
+  cursor: pointer;
+  font: 500 14px/17px "Montserrat";
+  text-align: left;
+  outline: none;
+}
+.Add_Btn_Dark {
+  composes: Add_Btn;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.6);
+  background-image: url("/icons/add_btn_dark.svg");
+}

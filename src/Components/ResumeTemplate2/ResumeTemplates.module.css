@@ -1,0 +1,228 @@
+.ResumeWrapper {
+  margin: 0 auto;
+  width: 970px;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.06), 1px 3px 4px rgba(0, 0, 0, 0.08),
+    1px 4px 6px rgba(0, 0, 0, 0.12);
+}
+
+.Container {
+  margin: 0 auto;
+  padding: 60px 70px 100px;
+}
+
+.ResumeHeding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ResumeTitle {
+  max-width: 319px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #181c27;
+}
+
+.ResumeSubtitle {
+  padding-top: 16px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: rgba(24, 28, 39, 0.6);
+}
+
+.ContactsContainer {
+  width: 100%;
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ContactIcon {
+  width: 16px;
+  height: 16px;
+  background-color: #181c27;
+}
+
+.ContactText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: rgba(24, 28, 39, 0.6);
+}
+
+.Icon {
+  display: inline-block;
+  margin-right: 2px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.ContactItem {
+  display: flex;
+  align-items: center;
+}
+
+.Map {
+  background-image: url(./icons/location.svg);
+}
+
+.Phone {
+  background-image: url(./icons/phone.svg);
+}
+
+.Mail {
+  background-image: url(./icons/mail.svg);
+}
+
+.ResumeBody {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column1 {
+  width: 70%;
+
+  overflow-wrap: break-word;
+}
+
+.column2 {
+  width: 30%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.BoxName {
+  margin-bottom: 32px;
+  padding: 4px 16px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: inline-block;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: rgb(78, 79, 80);
+}
+
+.BoxTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  color: #181c27;
+}
+
+.ItrmList {
+  list-style: url(./icons/listIcon.svg);
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+
+.UlItem {
+  padding-top: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.1em;
+
+  color: rgba(24, 28, 39, 0.6);
+}
+
+.BoxSubtitle {
+  padding-top: 4px;
+  padding-bottom: 8px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.02em;
+
+  color: #181c27;
+}
+
+.BoxText {
+  padding-bottom: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.1em;
+
+  color: rgba(24, 28, 39, 0.6);
+}
+
+.EducationItem {
+  padding-bottom: 8px;
+}
+
+.ScillsList {
+  list-style: none;
+  padding-bottom: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: rgba(24, 28, 39, 0.6);
+}

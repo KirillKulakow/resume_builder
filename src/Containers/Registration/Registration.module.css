@@ -1,0 +1,180 @@
+.registrationModule {
+  position: relative;
+  margin: 100px auto;
+  width: 610px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.preTitle {
+  text-transform: capitalize;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 36px;
+  letter-spacing: 0.2em;
+  color: #181c27;
+  padding-top: 60px;
+  margin-bottom: 8px;
+}
+
+.pageTitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #181c27;
+  margin-bottom: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.formDiv {
+  position: relative;
+}
+.label {
+  display: none;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: rgba(24, 28, 39, 0.6);
+  top: -12px;
+  padding-left: 8px;
+}
+
+.input {
+  outline: none;
+  width: 429px;
+  border: none;
+  padding: 8px 0 8px 8px;
+  background: #fafafa;
+  border-bottom: 1px solid rgba(24, 28, 39, 0.2);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #181c27;
+  margin-bottom: 32px;
+}
+
+.input::placeholder {
+  color: rgba(24, 28, 39, 0.6);
+}
+
+.input:focus + label {
+  display: block;
+}
+
+.input:invalid {
+  color: #ff2c0c;
+  border-bottom: 1px solid #ff2c0c;
+}
+
+.error {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #ff2c0c;
+}
+
+.button {
+  width: 170px;
+  padding: 11px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #181c27;
+  border-radius: 25px;
+  border: none;
+  margin: 0 auto 16px;
+}
+
+.message {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: rgba(24, 28, 39, 0.6);
+  margin-bottom: 60px;
+}
+
+.link {
+  padding-left: 4px;
+  color: rgba(24, 28, 39, 0.6);
+}
+
+.blackBox,
+.orangeBox {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+}
+
+.blackBox {
+  background: #181c27;
+  top: -37px;
+  right: 0;
+  z-index: 10;
+}
+
+.orangeBox {
+  background: #ff6b08;
+  top: 35px;
+  right: 0;
+  z-index: 10;
+}
+
+.rightCircle {
+  width: 142px;
+  height: 144px;
+  position: absolute;
+  border-radius: 100px;
+  background: #17ecff;
+  top: -37px;
+  right: -70px;
+}
+
+.bigCircle {
+  position: absolute;
+  border-radius: 0 180px 0 0;
+  height: 160px;
+  width: 153px;
+  background: #17ecff;
+  bottom: 0;
+  left: 0;
+}
+.middleCircle {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 0 75px 0 0;
+  bottom: 0;
+  left: 0;
+}

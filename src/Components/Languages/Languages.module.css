@@ -1,0 +1,22 @@
+.wrapper {
+  width: 470px;
+  margin-bottom: 40px;
+}
+
+.title {
+  padding-bottom: 16px;
+  width: 180px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #181c27;
+}
+.title_dark {
+  composes: title;
+  color: #ffffff;
+}

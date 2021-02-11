@@ -1,0 +1,18 @@
+.project_item {
+  width: 470px;
+  font-family: "Montserrat";
+  color: #181c27;
+  margin-bottom: 40px;
+}
+
+.title {
+  padding-bottom: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.title_Dark {
+  composes: title;
+  color: #ffffff;
+}

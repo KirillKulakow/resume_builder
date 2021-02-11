@@ -1,0 +1,9 @@
+export const getTitle = (state) => state.resume.basicInfo.title;
+export const getJobTitle = (state) => state.resume.basicInfo.jobTitle;
+export const getFirstName = (state) => state.resume.basicInfo.firstName;
+export const getLastName = (state) => state.resume.basicInfo.lastName;
+export const getEmail = (state) => state.resume.basicInfo.email;
+export const getPhone = (state) => state.resume.basicInfo.phone;
+export const getCountry = (state) => state.resume.basicInfo.country;
+export const getCity = (state) => state.resume.basicInfo.city;
+export const getSummary = (state) => state.resume.basicInfo.summary;

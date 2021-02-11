@@ -1,0 +1,57 @@
+.resumeName {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.04em;
+  text-align: start;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 15px;
+}
+
+.resumeItem {
+  display: grid;
+  width: 370px;
+}
+
+.resume {
+  background-color: white;
+  width: 370px;
+  height: 468px;
+}
+
+.button {
+  border-radius: 25px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: white;
+}
+
+.button:hover {
+  background: #17ecff;
+  color: #181c27;
+}
+
+.buttonBlock {
+  display: grid;
+  grid-template-columns: 0.5fr 0.3fr 0.5fr;
+  text-align: center;
+  grid-gap: 5%;
+  margin-top: 10px;
+}
+
+.buttonSvg {
+  margin-right: 5px;
+}

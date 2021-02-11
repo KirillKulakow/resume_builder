@@ -1,0 +1,5 @@
+Функції роботи з firebase і redux-thunk
+https://github.com/VovaMelnyk/FE-28/blob/master/React/Lesson_23/fb_methods/src/redux/operations.js
+
+Використання екшенів з firebase
+https://github.com/VovaMelnyk/FE-28/blob/master/React/Lesson_23/fb_methods/src/TodoList/TodoList.jsƒ

@@ -1,0 +1,26 @@
+.Container {
+  width: 470px;
+  font-family: Montserrat;
+  color: #181c27;
+  margin-bottom: 40px;
+}
+
+.Skill__title {
+  padding-bottom: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.Skill__title_dark {
+  composes: Skill__title;
+  color: #ffffff;
+}
+
+.Skill__list {
+  list-style: none;
+}
+
+.Skill__item {
+  padding-bottom: 16px;
+}

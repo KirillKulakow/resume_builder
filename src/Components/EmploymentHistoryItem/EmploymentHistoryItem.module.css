@@ -1,0 +1,213 @@
+.EmploymentHistoryItem_Container {
+  max-width: 470px;
+}
+
+.EmploymentHistoryItem_Header {
+  padding: 12px 13px 13px 8px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08),
+    0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.EmploymentHistoryItem_Header_Dark {
+  background: #181c27;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08),
+    0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.EmploymentHistoryItem_Editor_Box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.EmploymentHistoryItem_Editor_Title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #181c27;
+}
+.EmploymentHistoryItem_Editor_Title_Dark {
+  color: #ffffff;
+}
+
+.EmploymentHistoryItem_Editor_Edit_Btn_Box {
+  display: flex;
+}
+
+.EmploymentHistoryItem_Editor_Btn {
+  width: 62px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: rgba(24, 28, 39, 0.4);
+  border: none;
+  background-color: transparent;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  outline: none;
+}
+.EmploymentHistoryItem_Editor_Btn_Dark {
+  composes: EmploymentHistoryItem_Editor_Btn;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.EmploymentHistoryItem_Editor_Edit_Btn {
+  margin-right: 24px;
+  background-image: url("/icons/edit_icon.svg");
+  background-size: contain;
+}
+.EmploymentHistoryItem_Editor_Edit_Btn_Dark {
+  background-image: url("/icons/edit-dark.svg");
+}
+
+.EmploymentHistoryItem_Editor_Delete_Btn {
+  margin-right: 24px;
+  background-image: url("/icons/delete_icon.svg");
+  background-size: contain;
+}
+.EmploymentHistoryItem_Editor_Delete_Btn_Dark {
+  background-image: url("/icons/delete_dark.svg");
+}
+
+.EmploymentHistoryItem_Editor_Toggle_Btn {
+  width: 0;
+  background-image: url("/icons/toggle_icon.svg");
+  background-size: 60%;
+  background-position: 95%;
+}
+.EmploymentHistoryItem_Editor_Toggle_Btn_Dark {
+  composes: EmploymentHistoryItem_Editor_Toggle_Btn;
+  background-image: url("/icons/toggle_dark.svg");
+}
+
+.EmploymentHistoryItem_Editor_Toggle_Btn_Rotate {
+  width: 0;
+  background-image: url("/icons/toggle_icon.svg");
+  background-size: 60%;
+  background-position: 15%;
+  transform: rotate(180deg);
+}
+.EmploymentHistoryItem_Editor_Toggle_Btn_Rotate_Dark {
+  composes: EmploymentHistoryItem_Editor_Toggle_Btn_Rotate;
+  background-image: url("/icons/toggle_dark.svg");
+}
+
+.EmploymentHistoryItem_Editor_Years_Box {
+  display: flex;
+  align-items: center;
+}
+
+.EmploymentHistoryItem_Editor_Years_Descr {
+  margin-right: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: rgba(24, 28, 39, 0.6);
+}
+.EmploymentHistoryItem_Editor_Years_Descr_Dark {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.EmploymentHistoryItem_Editor_Years_Span {
+  padding-left: 6px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: #181c27;
+}
+.EmploymentHistoryItem_Editor_Years_Span_Dark {
+  color: #ffffff;
+}
+
+/*Form styles*/
+.EmploymentHistoryItem_Form {
+  padding: 16px;
+  background: rgba(24, 28, 39, 0.1);
+}
+.EmploymentHistoryItem_Form_Dark {
+  composes: EmploymentHistoryItem_Form;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.EmploymentHistoryItem_Form_Input {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: rgba(24, 28, 39, 0.6);
+  border: none;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08),
+    0px 1px 2px rgba(0, 0, 0, 0.12);
+  outline: none;
+}
+
+.EmploymentHistoryItem_Form_Input_Width {
+  min-width: 211px;
+}
+
+.EmploymentHistoryItem_Form_Input_Job {
+  min-width: 211px;
+}
+
+.EmploymentHistoryItem_Form_Input_Date {
+  width: 97px;
+}
+
+.EmploymentHistoryItem_Form_Input_Area {
+  width: 438px;
+  resize: none;
+  min-height: 200px;
+}
+
+.EmploymentHistoryItem_Form_Input::placeholder,
+.EmploymentHistoryItem_Form_Input_Area::placeholder,
+.EmploymentHistoryItem_Form_Input_Date::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: rgba(24, 28, 39, 0.6);
+  border: none;
+}
+
+.mr_16 {
+  margin-right: 16px;
+}
+
+.mb_16 {
+  margin-bottom: 16px;
+}
+
+/*Date picker styles*/
+.EmploymentHistoryItem_Calendar_Container {
+  position: relative;
+  display: inline-block;
+}
+/* .react-date-picker .react-datepicker__month-container  */
+.width > div > .react-datepicker {
+  background-color: tomato !important;
+}

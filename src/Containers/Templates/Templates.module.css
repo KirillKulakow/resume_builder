@@ -1,0 +1,72 @@
+.mainWrapperLight {
+  background-color: #fafafa;
+  padding-bottom: 70px;
+}
+.mainWrapperDark {
+  background-color: rgba(24, 28, 39, 0.9);
+  background-image: url("./background.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding-bottom: 70px;
+}
+
+.Link {
+  padding-left: 17px;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: rgba(24, 28, 39, 0.4);
+  text-decoration: none;
+  position: relative;
+}
+.LinkDarkTheme {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.LinkNewResumeActive {
+  content: "";
+  margin-left: 35px;
+  width: 12px;
+  height: 15px;
+  background-image: url('/icons/CreateTemplateActive.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.LinkNewResumeNotActive {
+  content: "";
+  margin-left: 35px;
+  width: 12px;
+  height: 15px;
+  background-image: url('/icons/CreateTemplateNotActive.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ActiveLink {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #181c27;
+}
+.ActiveLinkDark {
+  color: #ffffff;
+}
+
+.LinkWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 114px;
+}
+
+.LinkWrapper .Link:first-child {
+  margin-right: 58px;
+}

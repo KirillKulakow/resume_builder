@@ -1,0 +1,151 @@
+.previewT2 {
+  width: 100%;
+  margin: 0 auto;
+  /* text-align: center; */
+  /* list-style: none; */
+  background-color: #fff;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.02), 1px 1px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.name {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  grid-template-columns: auto;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  text-transform: uppercase;
+  text-align: center;
+  color: #181c27;
+}
+
+.location {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  color: rgba(24, 28, 39, 0.6);
+  margin-bottom: 44px;
+  padding-left: 100px;
+  padding-right: 120px;
+}
+
+.svg {
+  display: inline-flex;
+  /* background-image: url("../../../../public/icons/Vector.png"); */
+}
+
+.icon {
+  margin-right: 6px;
+}
+.jobTitle {
+  display: grid;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(24, 28, 39, 0.6);
+  margin-bottom: 10px;
+}
+
+.resumeBlock {
+  display: grid;
+  grid-template:
+    "profile profile skills" auto
+    "history history skills" auto
+    "education education skills" auto
+    "languages languages skills" auto;
+
+  grid-row-gap: 20px;
+  padding-left: 100px;
+  padding-right: 120px;
+}
+
+.nameBlock {
+  width: max-content;
+  padding: 4px 8px;
+  /* height: 12px; */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(24, 28, 39, 0.6);
+  margin-bottom: 20px;
+}
+
+.profile {
+  grid-area: profile;
+}
+.summary {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  color: rgba(24, 28, 39, 0.6);
+}
+
+.history {
+  grid-area: history;
+}
+
+.date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: 0.02em;
+
+  color: #181c27;
+}
+.list {
+  list-style: none;
+}
+
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181c27;
+}
+
+.education {
+  grid-area: education;
+}
+
+.skills {
+  grid-area: skills;
+  display: inline;
+}
+.skill {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(24, 28, 39, 0.6);
+  list-style: none;
+}
+
+.languages {
+  grid-area: languages;
+}
